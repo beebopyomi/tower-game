@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8739035624718210282}
   - component: {fileID: 3053349661259156770}
+  - component: {fileID: 7465541464367044940}
   m_Layer: 0
   m_Name: TANK
   m_TagString: Untagged
@@ -90,3 +91,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7465541464367044940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707449420864505784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611b08dc7363e046a8200eeb77cf2ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tower
+  range: 3
+  fireRate: 1
+  projectilePrefab: {fileID: 5452852306968343668, guid: 68019d5a218833d4da2e8dbb21f10538, type: 3}
+  firePoint: {fileID: 8739035624718210282}
+  towerPrice: 7

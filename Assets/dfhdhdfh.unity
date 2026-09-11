@@ -1343,6 +1343,144 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2091554438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &615776633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615776634}
+  - component: {fileID: 615776636}
+  - component: {fileID: 615776635}
+  m_Layer: 5
+  m_Name: CoinText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &615776634
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615776633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 986279154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 179.4606, y: -14.8435}
+  m_SizeDelta: {x: 258.9212, y: 64.7303}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &615776635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615776633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '0
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 13.471649, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &615776636
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615776633}
+  m_CullTransparentMesh: 1
 --- !u!1 &617149866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,7 +1724,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: go!
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1969,6 +2109,97 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2091554438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &986279153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 986279154}
+  - component: {fileID: 986279157}
+  - component: {fileID: 986279156}
+  - component: {fileID: 986279155}
+  m_Layer: 5
+  m_Name: Coins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &986279154
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986279153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 615776634}
+  m_Father: {fileID: 8960702694307871308}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 18, y: -18}
+  m_SizeDelta: {x: 112.2551, y: 112.2551}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &986279155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986279153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfed6373eceb4c4e905bb60f1a916e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinManager
+  coins: 10
+  coinTxt: {fileID: 615776635}
+--- !u!114 &986279156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986279153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0eab5d47765c56d478812f335671670b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &986279157
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986279153}
+  m_CullTransparentMesh: 1
 --- !u!1 &1055169322
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,7 +2968,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.690566, g: 0.690566, b: 0.690566, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2790,7 +3021,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1291560114164965846, guid: 8c0bf50f612d9e74e86d1fcd7fdd1c1e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2823,11 +3054,11 @@ RectTransform:
   - {fileID: 804563552}
   m_Father: {fileID: 8960702694307871308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -889.98706, y: -470.56238}
-  m_SizeDelta: {x: 98.8752, y: 98.8752}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 100.57532, y: 65}
+  m_SizeDelta: {x: 199.646, y: 199.646}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1706248312
 GameObject:
   m_ObjectHideFlags: 0
@@ -20977,20 +21208,413 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WaveManager
   waves:
   - duration: 15
-    easyEnemies: 5
-    hardEnemies: 0
+    RedBalloons: 20
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
   - duration: 15
-    easyEnemies: 8
-    hardEnemies: 0
+    RedBalloons: 20
+    BlueBalloons: 5
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
   - duration: 15
-    easyEnemies: 8
-    hardEnemies: 2
+    RedBalloons: 5
+    BlueBalloons: 25
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
   - duration: 15
-    easyEnemies: 2
-    hardEnemies: 8
+    RedBalloons: 20
+    BlueBalloons: 25
+    GreenBalloons: 5
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 30
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 10
+    BlueBalloons: 10
+    GreenBalloons: 12
+    YellowBalloons: 2
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 100
+    BlueBalloons: 0
+    GreenBalloons: 23
+    YellowBalloons: 4
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 20
+    BlueBalloons: 0
+    GreenBalloons: 12
+    YellowBalloons: 5
+    PinkBalloons: 3
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 25
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 10
+    YellowBalloons: 9
+    PinkBalloons: 7
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 26
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 25
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 35
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 120
+    BlueBalloons: 55
+    GreenBalloons: 45
+    YellowBalloons: 45
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 25
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 2
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 18
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 35
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 35
+    BlackBalloons: 0
+    WhiteBalloons: 25
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 5
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 20
+    WhiteBalloons: 25
+    ZebraBalloons: 10
+    LeadBalloons: 15
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 10
+    WhiteBalloons: 10
+    ZebraBalloons: 20
+    LeadBalloons: 20
+    RainbowBalloons: 18
+    CeramicBalloons: 0
+  - duration: 0
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 60
+    WhiteBalloons: 0
+    ZebraBalloons: 60
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 0
+  - duration: 0
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 10
+    CeramicBalloons: 7
+  - duration: 0
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 200
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 8
+    RainbowBalloons: 25
+    CeramicBalloons: 0
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 70
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 13
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 340
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 20
+    LeadBalloons: 0
+    RainbowBalloons: 15
+    CeramicBalloons: 15
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 20
+    CeramicBalloons: 20
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 80
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 30
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 80
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 0
+    RainbowBalloons: 40
+    CeramicBalloons: 40
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 30
+    RainbowBalloons: 0
+    CeramicBalloons: 50
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 150
+    LeadBalloons: 0
+    RainbowBalloons: 0
+    CeramicBalloons: 10
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 0
+    LeadBalloons: 75
+    RainbowBalloons: 0
+    CeramicBalloons: 120
+  - duration: 15
+    RedBalloons: 0
+    BlueBalloons: 0
+    GreenBalloons: 0
+    YellowBalloons: 0
+    PinkBalloons: 0
+    BlackBalloons: 0
+    WhiteBalloons: 0
+    ZebraBalloons: 100
+    LeadBalloons: 0
+    RainbowBalloons: 70
+    CeramicBalloons: 75
   startWaveButton: {fileID: 1690543048}
-  easyEnemyPrefab: {fileID: 8050748488250323660, guid: 835daa4c2ffa0244b8b1be0a310c4bf3, type: 3}
-  hardEnemyPrefab: {fileID: 4938202445996822870, guid: 765b7c1d6164404499a29b49be9132bd, type: 3}
+  RedBaloonPrefab: {fileID: 8050748488250323660, guid: 835daa4c2ffa0244b8b1be0a310c4bf3, type: 3}
+  BlueBaloonPrefab: {fileID: 4938202445996822870, guid: 765b7c1d6164404499a29b49be9132bd, type: 3}
+  GreenBaloonPrefab: {fileID: 8039789430406649468, guid: a3eabdd4f7d5c8a4d9fe6204f214c357, type: 3}
+  YellowBaloonPrefab: {fileID: 7494904524485414009, guid: 076269ddf91e52c4194d9933b013806f, type: 3}
+  PinkBaloonPrefab: {fileID: 2022841135990113208, guid: b5ad018a239b4f645a0f8064dda8d2c1, type: 3}
+  BlackBaloonPrefab: {fileID: 3779505282487328966, guid: f6fe1daad001f75478601c870d5febcf, type: 3}
+  WhiteBaloonPrefab: {fileID: 4613013872998490651, guid: 599a7ba5b2cc3f649a2880805499d6f4, type: 3}
+  ZebraBaloonPrefab: {fileID: 368075331574673570, guid: 8fc5a35a548baef4398ee8c82490c49e, type: 3}
+  LeadBaloonPrefab: {fileID: 7604772343263310216, guid: 76c9e8aad05469d498c28bed3d888ffc, type: 3}
+  RainbowBaloonPrefab: {fileID: 8263849545018772729, guid: c3cc5dde4a1d1ed478363d6db3be486f, type: 3}
+  CeramicBaloonPrefab: {fileID: 1398781309878583080, guid: aebe067ee83bf584b9b23cb47e7b5e64, type: 3}
   wayPoints:
   - {fileID: 1521815609}
   - {fileID: 213626943}
@@ -21387,7 +22011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.4636, y: 0.4636}
+  m_AnchoredPosition: {x: 0.46362305, y: 0.46359253}
   m_SizeDelta: {x: -13.4453, y: -13.4453}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1726078651061420644
@@ -21406,7 +22030,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.46360016, y: 0.4636}
+  m_AnchoredPosition: {x: 0.46362305, y: 0.46359253}
   m_SizeDelta: {x: -13.4453, y: -13.4453}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900576587086362006
@@ -21513,7 +22137,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 3a547825b88b95e4684adab11d8adc19, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21546,11 +22170,11 @@ RectTransform:
   - {fileID: 1398696881822698645}
   m_Father: {fileID: 8960702694307871308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 900.5624, y: -470.56238}
-  m_SizeDelta: {x: 98.8752, y: 98.8752}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -90.00006, y: 65}
+  m_SizeDelta: {x: 197.0546, y: 197.0544}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &5369684486484213317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21715,14 +22339,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dd478920182ab04fa07ca006919b9f2, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21745,14 +22369,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 85150d6958cfee24687e7c4dd6791ad3, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21796,11 +22420,11 @@ RectTransform:
   - {fileID: 1726078651061420644}
   m_Father: {fileID: 8960702694307871308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 786.01294, y: -470.56238}
-  m_SizeDelta: {x: 98.8752, y: 98.8752}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -318.29297, y: 65}
+  m_SizeDelta: {x: 197.0546, y: 197.0544}
+  m_Pivot: {x: 1, y: 0}
 --- !u!1 &8525880408156390261
 GameObject:
   m_ObjectHideFlags: 0
@@ -21839,7 +22463,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: e1c803b9c39f7434baeaf6954287e4b8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21864,6 +22488,7 @@ RectTransform:
   - {fileID: 5111735671691209152}
   - {fileID: 8207136664444637203}
   - {fileID: 1690543052}
+  - {fileID: 986279154}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

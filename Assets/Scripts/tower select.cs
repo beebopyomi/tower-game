@@ -10,6 +10,10 @@ public class towerselect : MonoBehaviour
             selectedTowerprefanb = null;
             return;
         }
-        selectedTowerprefanb = towerPrefab;
+        if (towerPrefab.GetComponent<Tower>().towerPrice <= CoinManager.instance.coins)
+        {
+            selectedTowerprefanb = towerPrefab;
+        }
+        
     }
 }

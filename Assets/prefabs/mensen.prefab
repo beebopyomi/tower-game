@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8537576404132131055}
   - component: {fileID: 5475450997255394618}
+  - component: {fileID: 2233478441896607305}
   m_Layer: 0
   m_Name: mensen
   m_TagString: Untagged
@@ -90,3 +91,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2233478441896607305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4871902748478610859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611b08dc7363e046a8200eeb77cf2ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tower
+  range: 5
+  fireRate: 2
+  projectilePrefab: {fileID: 3660696363114365108, guid: 6e6209d3b883b0749b04ed26427dc400, type: 3}
+  firePoint: {fileID: 8537576404132131055}
+  towerPrice: 10

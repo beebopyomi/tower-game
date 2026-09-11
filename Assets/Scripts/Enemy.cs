@@ -3,8 +3,9 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float speed = 2f;
+    public int health = 1;
     public Transform[] waypoints;
-    private int currentWayPoint = 0;
+    public int currentWayPoint = 0;
 
     // Update is called once per frame
     void Update()

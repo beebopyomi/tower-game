@@ -64,6 +64,7 @@ public class TowerPlacer : MonoBehaviour
         if (occupiedTiles.Contains(cellPos)) return;
 
         Instantiate(towerselect.selectedTowerprefanb, ghostInstance.transform.position, Quaternion.identity);
+        CoinManager.instance.UpdateCoins(-towerselect.selectedTowerprefanb.GetComponent<Tower>().towerPrice);
 
         towerselect.selectedTowerprefanb = null;
 
