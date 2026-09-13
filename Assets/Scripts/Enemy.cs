@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
     public int health = 1;
     public Transform[] waypoints;
     public int currentWayPoint = 0;
+    public int damage = 1;
 
     // Update is called once per frame
     void Update()
@@ -19,6 +20,7 @@ public class Enemy : MonoBehaviour
             currentWayPoint++;
             if(currentWayPoint >= waypoints.Length)
             {
+                HealthManager.Instance.UpdateHealth(-damage);
                 Destroy(gameObject);
             }
         }

@@ -1,11 +1,29 @@
 using UnityEngine;
 
+[System.Serializable]
+public class TowerUpgradeStages
+{
+    public float range;
+    public float fireRate;
+    public Sprite sprite;
+    public int price;
+}
 public class Tower : MonoBehaviour
 {
     public float range = 3f;
     public float fireRate = 1f;
     public GameObject projectilePrefab;
     public Transform firePoint;
+    public TowerUpgradeStages[] upgradeStages;
+    public int upgradeStage = 0;
+    private SpriteRenderer SR;
+    public GameObject towerUpgradeUIPrefab;
+    private GameObject currentUI;   
+    private void Awake()
+    {
+        SR = GetComponent<SpriteRenderer>();
+    }
+
     private float fireCooldown = 0f;
     public int towerPrice = 1;
 
@@ -46,4 +64,30 @@ public class Tower : MonoBehaviour
         Projectile pr = p.GetComponent<Projectile>();
         pr.target = target.transform;
     }
+    public void Upgrade()
+    {
+        TowerUpgradeStages currentUpgradeStage = upgradeStages[upgradeStage];
+        range = currentUpgradeStage.range;
+        fireRate = currentUpgradeStage.fireRate;
+        SR.sprite = currentUpgradeStage.sprite;
+        CoinManager.instance.UpdateCoins(-currentUpgradeStage.price);
+        upgradeStage += 1;
+    }
+    private void OnMouseDown()
+    {
+        Debug.Log("ik doe ook echt iets he");
+        if(currentUI == null)
+        {
+            currentUI = Instantiate(towerUpgradeUIPrefab, FindAnyObjectByType<Canvas>().transform);
+        }
+        TowerUpgradeUI currentUpgradeUI = currentUI.GetComponent<TowerUpgradeUI>();
+        currentUpgradeUI.tower = this;
+
+        currentUI.transform.position = Input.mousePosition + new Vector3(50, -50);
+
+        if (upgradeStage >= upgradeStages.Length) return;
+        currentUpgradeUI.priceTxt.text = upgradeStages[upgradeStage].price.ToString();
+        
+    }
 }
+

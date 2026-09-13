@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8739035624718210282}
   - component: {fileID: 3053349661259156770}
   - component: {fileID: 7465541464367044940}
+  - component: {fileID: 5215074549441089132}
   m_Layer: 0
   m_Name: TANK
   m_TagString: Untagged
@@ -107,4 +108,61 @@ MonoBehaviour:
   fireRate: 1
   projectilePrefab: {fileID: 5452852306968343668, guid: 68019d5a218833d4da2e8dbb21f10538, type: 3}
   firePoint: {fileID: 8739035624718210282}
+  upgradeStages:
+  - range: 6
+    fireRate: 2
+    sprite: {fileID: 21300000, guid: 8ddc1333b70606a4481756af73456ea1, type: 3}
+    price: 14
+  - range: 10
+    fireRate: 3
+    sprite: {fileID: 21300000, guid: 374ccf6e4052fa94e9e47f69021839a5, type: 3}
+    price: 20
+  upgradeStage: 0
+  towerUpgradeUIPrefab: {fileID: 8726352776266985249, guid: b2efc4b3abf4435468b8b14c2262c229, type: 3}
   towerPrice: 7
+--- !u!61 &5215074549441089132
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707449420864505784}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.09, y: 0.09}
+    newSize: {x: 0.09, y: 0.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.09, y: 0.09}
+  m_EdgeRadius: 0
