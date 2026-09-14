@@ -115,7 +115,7 @@ public class WaveManager : MonoBehaviour
         waveRunning = false;
         startWaveButton.interactable = true;
         currentWaveIndex++;
-        wavetext.text = ("1ave " + (currentWaveIndex + 1)).ToString();
+        wavetext.text = ("wave " + (currentWaveIndex + 1)).ToString();
     }
     void SpawnEnemy(GameObject prefab)
     {
