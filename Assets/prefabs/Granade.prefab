@@ -103,5 +103,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae82dcd8b7053647b2ec8e07eacfd0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  speed: 6
+  speed: 8
   target: {fileID: 0}

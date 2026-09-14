@@ -107,3 +107,4 @@ MonoBehaviour:
   health: 47
   waypoints: []
   currentWayPoint: 0
+  damage: 47

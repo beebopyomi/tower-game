@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8537576404132131055}
   - component: {fileID: 5475450997255394618}
   - component: {fileID: 2233478441896607305}
+  - component: {fileID: 6562596064546332362}
   m_Layer: 0
   m_Name: mensen
   m_TagString: Untagged
@@ -107,4 +108,61 @@ MonoBehaviour:
   fireRate: 2
   projectilePrefab: {fileID: 3660696363114365108, guid: 6e6209d3b883b0749b04ed26427dc400, type: 3}
   firePoint: {fileID: 8537576404132131055}
+  upgradeStages:
+  - range: 7
+    fireRate: 4
+    sprite: {fileID: 21300000, guid: 8c33d1816a3f5d44e952d1c69d5845df, type: 3}
+    price: 20
+  - range: 10
+    fireRate: 6
+    sprite: {fileID: 21300000, guid: b5fb485e1cca0844bb09d6df6f30aa6e, type: 3}
+    price: 30
+  upgradeStage: 0
+  towerUpgradeUIPrefab: {fileID: 8726352776266985249, guid: b2efc4b3abf4435468b8b14c2262c229, type: 3}
   towerPrice: 10
+--- !u!61 &6562596064546332362
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4871902748478610859}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.09, y: 0.09}
+    newSize: {x: 0.09, y: 0.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.09, y: 0.09}
+  m_EdgeRadius: 0
