@@ -105,3 +105,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
   speed: 8
   target: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 8015cd25f4b7221429b097ffbf09a46c, type: 3}
