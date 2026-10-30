@@ -26,9 +26,14 @@ public class Projectile : MonoBehaviour
            e.health -= 1;
            if(e.health <= 0)
            {
-                AudioSource.PlayClipAtPoint(deathSound, transform.position);
+                //AudioSource audioSource = new GameObject("TempAudio").AddComponent<AudioSource>();
+                //audioSource.transform.position = transform.position;
+                //audioSource.clip = deathSound;
+                //audioSource.pitch = Random.Range(0.2f, 2.0f);
+                //audioSource.Play();
+                //Destroy(audioSource.gameObject, deathSound.length / audioSource.pitch);
                 CoinManager.instance.UpdateCoins(2);
-               Destroy(target.gameObject);
+                Destroy(target.gameObject);
            }
            Destroy(gameObject);
         }
