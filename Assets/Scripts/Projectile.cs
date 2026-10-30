@@ -4,6 +4,9 @@ public class Projectile : MonoBehaviour
 {
     public float speed = 8f;
     public Transform target;
+    [Header("Audio")]
+    public AudioClip deathSound;
+    
 
     // Update is called once per frame
     void Update()
@@ -23,8 +26,14 @@ public class Projectile : MonoBehaviour
            e.health -= 1;
            if(e.health <= 0)
            {
+                //AudioSource audioSource = new GameObject("TempAudio").AddComponent<AudioSource>();
+                //audioSource.transform.position = transform.position;
+                //audioSource.clip = deathSound;
+                //audioSource.pitch = Random.Range(0.2f, 2.0f);
+                //audioSource.Play();
+                //Destroy(audioSource.gameObject, deathSound.length / audioSource.pitch);
                 CoinManager.instance.UpdateCoins(2);
-               Destroy(target.gameObject);
+                Destroy(target.gameObject);
            }
            Destroy(gameObject);
         }

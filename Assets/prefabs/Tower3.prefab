@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tower
   range: 4
   fireRate: 2
-  projectilePrefab: {fileID: 886488641945694473, guid: 6a6f2209aa065434da37e1452053bcb8, type: 3}
+  projectilePrefab: {fileID: 8622457892772360643, guid: 9f3ee21d730d1784a8b68e4bd2e6c238, type: 3}
   firePoint: {fileID: 8537576404132131055}
   upgradeStages:
   - range: 7

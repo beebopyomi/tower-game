@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8570379834506822142}
   m_Layer: 0
   m_Name: Easy Enemy
-  m_TagString: Untagged
+  m_TagString: hell
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,3 +107,4 @@ MonoBehaviour:
   health: 1
   waypoints: []
   currentWayPoint: 0
+  damage: 1
